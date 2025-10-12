@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['defected_Potato', 'defected_bitter_gourd', 'defected_brinjal', 'defected_capsicum', 'defected_onion', 'defected_pointed_gourd', 'defected_tomato', 'fresh_bitter_gourd', 'fresh_brinjal', 'fresh_capsicum', 'fresh_onion', 'fresh_pointed_gourd', 'fresh_potato', 'fresh_tomato']
+
+roboflow:
+  workspace: rakib151p
+  project: vegmining-i6j82
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rakib151p/vegmining-i6j82/dataset/2
